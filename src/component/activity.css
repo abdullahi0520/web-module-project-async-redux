@@ -1,0 +1,37 @@
+.activity {
+    border: 2px solid seagreen;
+    margin: 0px 50px 15px 50px
+}
+
+.activity p {
+    text-transform: capitalize;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+.activity h2 {
+    color: seagreen
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+button {
+    transition-duration: .4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button :hover{
+    background-color: seagreen;
+
+
+}
